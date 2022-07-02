@@ -137,7 +137,9 @@ function ArtifactsFilterPage() {
                 className="ArtifactsFilterPage-content-wrap-item"
                 key={artifacts.id}
               >
-                <Link to={`/epic7/ArtifactsPage/${artifacts.id}`}>
+                <Link
+                  to={`https://susublace.github.io/ep7-database/ArtifactsPage/${artifacts.id}`}
+                >
                   <img className="Artifacts-image" src={artifacts.image}></img>
                 </Link>
                 <div>{artifacts.artifactsName}</div>

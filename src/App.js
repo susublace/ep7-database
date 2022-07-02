@@ -10,14 +10,26 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/epic7/HeroFilterPage" element={<HeroFilterPage />} />
         <Route
-          path="/epic7/ArtifactsFilterPage"
+          path="https://susublace.github.io/ep7-database/"
+          element={<HomePage />}
+        />
+        <Route
+          path="https://susublace.github.io/ep7-database/HeroFilterPage"
+          element={<HeroFilterPage />}
+        />
+        <Route
+          path="https://susublace.github.io/ep7-database/ArtifactsFilterPage"
           element={<ArtifactsFilterPage />}
         />
-        <Route path="/epic7/HeroPage/:id" element={<HeroPage />} />
-        <Route path="/epic7/ArtifactsPage/:id" element={<ArtifactsPage />} />
+        <Route
+          path="https://susublace.github.io/ep7-database/HeroPage/:id"
+          element={<HeroPage />}
+        />
+        <Route
+          path="https://susublace.github.io/ep7-database/ArtifactsPage/:id"
+          element={<ArtifactsPage />}
+        />
       </Routes>
     </BrowserRouter>
   );

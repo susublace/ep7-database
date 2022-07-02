@@ -60,7 +60,9 @@ function HomePage() {
             </div>
             {selectedItem && (
               <div className="homepage-select-img">
-                <Link to={`/epic7/${selectedItem.value}`}>
+                <Link
+                  to={`https://susublace.github.io/ep7-database/${selectedItem.value}`}
+                >
                   <img src={selectedItem?.image}></img>
                 </Link>
                 <div className="homepage-select-children">
@@ -73,13 +75,19 @@ function HomePage() {
         <div className="homepage-footer">
           <div className="homepage-footer-wrapper">
             <div className="homepage-footer-hero">
-              <Link to={"/epic7/HeroFilterPage"}>
+              <Link
+                to={"https://susublace.github.io/ep7-database/HeroFilterPage"}
+              >
                 <img src={heroIcon}></img>
                 <div className="homepage-footer-hero-item">英雄</div>
               </Link>
             </div>
             <div className="homepage-footer-artifacts">
-              <Link to={"/epic7/ArtifactsFilterPage"}>
+              <Link
+                to={
+                  "https://susublace.github.io/ep7-database/ArtifactsFilterPage"
+                }
+              >
                 <img src={artifactsIcon}></img>
                 <div className="homepage-footer-artifacts-item">神器</div>
               </Link>

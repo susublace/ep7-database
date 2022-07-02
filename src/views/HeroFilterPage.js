@@ -312,7 +312,9 @@ function HeroFilterPage() {
           <div className="herofilterpage-content-wrap">
             {renderList?.map((hero) => (
               <div className="herofilterpage-content-wrap-item" key={hero.id}>
-                <Link to={`/epic7/HeroPage/${hero.id}`}>
+                <Link
+                  to={`https://susublace.github.io/ep7-database/HeroPage/${hero.id}`}
+                >
                   <img className="hero-image" src={hero.image}></img>
                 </Link>
                 <div>{hero.heroName}</div>
