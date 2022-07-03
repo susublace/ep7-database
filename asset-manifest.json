@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ep7-database/static/css/main.11fd1e7c.css",
+    "main.css": "/ep7-database/static/css/main.001e4800.css",
     "main.js": "/ep7-database/static/js/main.cfec9132.js",
     "static/js/787.8338c760.chunk.js": "/ep7-database/static/js/787.8338c760.chunk.js",
     "static/media/background.png": "/ep7-database/static/media/background.4ff0c2729de0f7d1175f.png",
@@ -217,12 +217,12 @@
     "static/media/gobletofoath.png": "/ep7-database/static/media/gobletofoath.64de30248e4120335d02.png",
     "static/media/propheticcandlestick.png": "/ep7-database/static/media/propheticcandlestick.622c2629d2774b41a5a9.png",
     "index.html": "/ep7-database/index.html",
-    "main.11fd1e7c.css.map": "/ep7-database/static/css/main.11fd1e7c.css.map",
+    "main.001e4800.css.map": "/ep7-database/static/css/main.001e4800.css.map",
     "main.cfec9132.js.map": "/ep7-database/static/js/main.cfec9132.js.map",
     "787.8338c760.chunk.js.map": "/ep7-database/static/js/787.8338c760.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.11fd1e7c.css",
+    "static/css/main.001e4800.css",
     "static/js/main.cfec9132.js"
   ]
 }
