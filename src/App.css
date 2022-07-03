@@ -139,9 +139,11 @@ table {
   height: 100%;
   min-height: 100vh;
   background-image: url(./images/background-image/background.png);
+  background-size: cover;
 }
 
 .global-header {
+  width: 100%;
   background-color: #22223b;
   font-size: 20px;
   display: flex;
@@ -255,6 +257,7 @@ table {
 .homepage-footer-wrapper {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   font-size: 30px;
   color: #f2e9e4;
 }
@@ -447,6 +450,7 @@ table {
   font-size: 20px;
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .heropage-footer-wrap p {
@@ -454,6 +458,7 @@ table {
 }
 
 .heropage-footer-image {
+  margin-bottom: 25px;
   width: 300px;
 }
 
@@ -548,6 +553,8 @@ table {
 .artifactsPage-content-wrap {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
   padding: 30px;
 }
 
@@ -561,4 +568,96 @@ table {
 
 .ant-checkbox-wrapper {
   color: #f2e9e4;
+}
+
+@media (max-width: 992px) {
+  .homepage-input > div {
+    width: 300px;
+  }
+  .herofilterpage-content-wrap {
+    justify-content: center;
+    font-size: 11px;
+  }
+  .heropage-footer-wrap {
+    flex-direction: column;
+    align-content: center;
+  }
+  .ArtifactsFilterPage-content-wrap {
+    justify-content: center;
+    font-size: 11px;
+  }
+  .artifactsPage-content-wrap {
+    flex-direction: column;
+  }
+  .artifactsPage-content-wrap-image {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  .homepage-input > div {
+    width: 225px;
+  }
+  .homepage-footer-wrapper {
+    flex-direction: column;
+  }
+  .homepage-footer-hero {
+    margin-bottom: 30px;
+  }
+  .homepage-footer-artifacts {
+    margin-bottom: 30px;
+  }
+  .homepage-footer-materials {
+    margin-bottom: 30px;
+  }
+  .herofilterpage-content-herodata {
+    flex-direction: column;
+  }
+  .herofilterpage-content-herodata-item {
+    padding-bottom: 20px;
+    width: 40%;
+  }
+  .herofilterpage-content-herobuff {
+    flex-direction: column;
+  }
+  .herofilterpage-content-herobuff-item {
+    padding-bottom: 20px;
+    width: 40%;
+  }
+  .herofilterpage-content-wrap-item {
+    margin: 5px;
+    width: 110px;
+  }
+  .ArtifactsFilterPage-content-artifactdata {
+    flex-direction: column;
+  }
+  .ArtifactsFilterPage-content-artifactdata-item {
+    padding-bottom: 20px;
+    width: 50%;
+  }
+  .ArtifactsFilterPage-content-wrap-item {
+    margin: 5px;
+    width: 110px;
+  }
+  .heropage-content {
+    flex-direction: column-reverse;
+  }
+  .heropage-content-items {
+    margin-top: 30px;
+  }
+  .heropage-footer {
+    padding: 24px;
+  }
+  .heropage-footer-items h4 {
+    padding-left: 0px;
+  }
+  .artifactsPage-content-wrap-image {
+    width: 240px;
+  }
+  .ant-popover-inner-content {
+    width: 270px;
+  }
+  .ant-checkbox-group-item {
+    padding: 3px;
+  }
 }
