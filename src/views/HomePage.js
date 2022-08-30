@@ -14,6 +14,7 @@ function HomePage() {
   const hero = heroSearchData;
   const artifacts = artifactsSearchData;
   const [selectedItem, setSelectedItem] = useState(null);
+  console.log("test");
 
   return (
     <>
