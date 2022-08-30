@@ -2,6 +2,7 @@ import GlobalHeader from "../components/GlobalHeader";
 import heroIcon from "../images/icon/Hero.png";
 import artifactsIcon from "../images/icon/Artifacts.png";
 import materialsIcon from "../images/icon/Materials.png";
+import speedIcon from "../images/icon/speed.png";
 import { useState } from "react";
 import { heroSearchData } from "../database/HeroSearchData";
 import { artifactsSearchData } from "../database/ArtifactsSearchData";
@@ -14,7 +15,6 @@ function HomePage() {
   const hero = heroSearchData;
   const artifacts = artifactsSearchData;
   const [selectedItem, setSelectedItem] = useState(null);
-  console.log("test");
 
   return (
     <>
@@ -62,7 +62,7 @@ function HomePage() {
             {selectedItem && (
               <div className="homepage-select-img">
                 <Link to={`/ep7-database/${selectedItem.value}`}>
-                  <img src={selectedItem?.image}></img>
+                  <img src={selectedItem?.image} alt={"英雄或神器圖片"}></img>
                 </Link>
                 <div className="homepage-select-children">
                   {selectedItem.children}
@@ -75,20 +75,30 @@ function HomePage() {
           <div className="homepage-footer-wrapper">
             <div className="homepage-footer-hero">
               <Link to={"/ep7-database/HeroFilterPage"}>
-                <img src={heroIcon}></img>
+                <img src={heroIcon} alt={"英雄"}></img>
                 <div className="homepage-footer-hero-item">英雄</div>
               </Link>
             </div>
             <div className="homepage-footer-artifacts">
               <Link to={"/ep7-database/ArtifactsFilterPage"}>
-                <img src={artifactsIcon}></img>
+                <img src={artifactsIcon} alt={"神器"}></img>
                 <div className="homepage-footer-artifacts-item">神器</div>
               </Link>
             </div>
             <div className="homepage-footer-materials">
-              <img src={materialsIcon}></img>
+              <img src={materialsIcon} alt={"道具"}></img>
               <div className="homepage-footer-materials-item">道具</div>
             </div>
+          </div>
+          <div className="homepage-footer-tools">
+            <Link to={"/ep7-database/SpeedCalculator"}>
+              <div className="homepage-footer-tools-speedCalculator">
+                <img src={speedIcon} alt={"速度計算機"}></img>
+                <div className="homepage-footer-tools-speedCalculator-item">
+                  速度計算機
+                </div>
+              </div>
+            </Link>
           </div>
         </div>
       </div>

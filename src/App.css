@@ -255,11 +255,13 @@ table {
 }
 
 .homepage-footer-wrapper {
+  padding-bottom: 15px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   font-size: 30px;
   color: #f2e9e4;
+  border-bottom: solid #c9ada7 2px;
 }
 
 .homepage-footer-hero img {
@@ -293,6 +295,33 @@ table {
 }
 
 .homepage-footer-materials-item {
+  display: flex;
+  justify-content: center;
+  color: #f2e9e4;
+}
+
+.homepage-footer-tools {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 15px;
+  color: #f2e9e4;
+}
+
+.homepage-footer-tools-speedCalculator {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.homepage-footer-tools-speedCalculator img {
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+}
+
+.homepage-footer-tools-speedCalculator-item {
   display: flex;
   justify-content: center;
   color: #f2e9e4;
@@ -568,6 +597,47 @@ table {
 
 .ant-checkbox-wrapper {
   color: #f2e9e4;
+}
+
+.ant-form-item-label label {
+  color: #f2e9e4;
+}
+
+.ant-form-item-control-input-content input {
+  width: 30%;
+}
+
+.ant-input-wrapper.ant-input-group {
+  width: 35%;
+}
+
+.speedCalculator-main {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-image: url(./images/background-image/background.png);
+  background-size: cover;
+}
+
+.speedCalculator-header {
+  margin-bottom: 30px;
+}
+
+.speedCalculator-content {
+  margin: 0 auto;
+  margin-bottom: 30px;
+  width: 80%;
+  padding: 30px;
+  color: #f2e9e4;
+  font-size: 20px;
+  line-height: 1.3;
+  border-radius: 8px;
+  background-color: #22223b;
+  border: solid #9a8c98 1px;
+}
+
+.speedCalculator-content-form {
+  margin-top: 30px;
 }
 
 @media (max-width: 992px) {
