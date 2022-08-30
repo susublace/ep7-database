@@ -4,6 +4,7 @@ import HeroFilterPage from "./views/HeroFilterPage";
 import HeroPage from "./views/HeroPage";
 import ArtifactsFilterPage from "./views/ArtifactsFilterPage";
 import ArtifactsPage from "./views/ArtifactsPage";
+import SpeedCalculator from "./views/SpeedCalculator";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 function App() {
@@ -23,6 +24,10 @@ function App() {
         <Route
           path="/ep7-database/ArtifactsPage/:id"
           element={<ArtifactsPage />}
+        />
+        <Route
+          path="/ep7-database/SpeedCalculator"
+          element={<SpeedCalculator />}
         />
       </Routes>
     </BrowserRouter>
