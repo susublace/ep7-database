@@ -44,7 +44,7 @@ function SpeedCalculator() {
           計算出來對方該角色速度為：{resultFirst}
         </div>
         <div className="speedCalculator-content">
-          第二種情況為：對方先動，觸發自己第一動的角色拉條而達到100%的並且第二動的角色在沒有拉條降條的情況下用以下的方式計算。（額外說明：如果自己第二動角色也有觸發拉條，底下輸入可改為自己第三動的角色且沒有觸發拉條降條的情況下來做計算。）
+          第二種情況為：對方先動，觸發自己第一動的角色拉條而達到100%並且第二動的角色在沒有拉條降條的情況下用以下的方式計算。（額外說明：如果自己第二動角色也有觸發拉條，底下輸入可改為自己第三動的角色且沒有觸發拉條降條的情況下來做計算。）
           <div className="speedCalculator-content-form">
             <Form layout={"horizontal"} form={formRef}>
               <Form.Item
