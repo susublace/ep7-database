@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ep7-database/static/css/main.d2321b1b.css",
-    "main.js": "/ep7-database/static/js/main.10fbd3a7.js",
+    "main.js": "/ep7-database/static/js/main.629e44f7.js",
     "static/js/787.8338c760.chunk.js": "/ep7-database/static/js/787.8338c760.chunk.js",
     "static/media/background.png": "/ep7-database/static/media/background.4ff0c2729de0f7d1175f.png",
     "static/media/portraitofthesaviors3.png": "/ep7-database/static/media/portraitofthesaviors3.23447c46dbbd5c358264.png",
@@ -218,11 +218,11 @@
     "static/media/propheticcandlestick.png": "/ep7-database/static/media/propheticcandlestick.622c2629d2774b41a5a9.png",
     "index.html": "/ep7-database/index.html",
     "main.d2321b1b.css.map": "/ep7-database/static/css/main.d2321b1b.css.map",
-    "main.10fbd3a7.js.map": "/ep7-database/static/js/main.10fbd3a7.js.map",
+    "main.629e44f7.js.map": "/ep7-database/static/js/main.629e44f7.js.map",
     "787.8338c760.chunk.js.map": "/ep7-database/static/js/787.8338c760.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d2321b1b.css",
-    "static/js/main.10fbd3a7.js"
+    "static/js/main.629e44f7.js"
   ]
 }
